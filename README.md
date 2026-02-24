@@ -40,6 +40,9 @@
 > The background of the terminal is not changed by the clipse theme file. That is based off of the terminal theme.
 > It changes in the screenshots because the kitty theme was changed to match the clipse theme.
 
+> [!NOTE]
+> clipse already has a Catppuccin theme, but it's only mocha with a mauve accent.
+
 1. Download the file of your flavor of choice from [themes](themes).
 2. Move the file to wherever you want it.
 3. Open the configuration file (`$HOME/.config/clipse/config.json`) and put the path to the downloaded file in the `themeFile` field.
