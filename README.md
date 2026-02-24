@@ -38,7 +38,8 @@
 
 1. Download the file of your flavor of choice from [themes](themes).
 2. Move the file to wherever you want it.
-3. Open the configuration file (`$HOME/.config/clipse/config.json`).
+3. Open the configuration file (`$HOME/.config/clipse/config.json`) and put the path to the downloaded file in the `themeFile` field.
+4. Enjoy!
 
 ## 💝 Thanks to
 
