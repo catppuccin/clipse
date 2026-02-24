@@ -41,6 +41,11 @@
 3. Open the configuration file (`$HOME/.config/clipse/config.json`) and put the path to the downloaded file in the `themeFile` field.
 4. Enjoy!
 
+## 🙋 FAQ
+
+- Q: **_"What is the terminal in the screenshot?"_**\
+  A: Kitty.
+
 ## 💝 Thanks to
 
 - [Scarce Koi](https://github.com/scarcekoi)
