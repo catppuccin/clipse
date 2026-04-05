@@ -37,7 +37,7 @@
 ## Usage
 
 > [!NOTE]
-> clipse already has a Catppuccin theme, but it's only mocha with a mauve accent.
+> A Catppuccin theme already exists for **clipse**, but it only includes the Mocha flavor with a Mauve accent.
 
 1. Download the file of your flavor of choice from [themes](themes).
 2. Move the file to wherever you want it.
