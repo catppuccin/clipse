@@ -1,37 +1,37 @@
 ---
 whiskers:
-  version: "^2.5.1"
+  version: "^2.9.0"
   matrix:
     - flavor
     - accent
   filename: "themes/{{ flavor.identifier }}/catppuccin-{{ flavor.identifier }}-{{ accent }}.json"
-  hex_format: "#{{r}}{{g}}{{b}}"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
 ---
 {
-    "useCustom": true,
-    "TitleFore": "{{ text.hex }}",
-    "TitleBack": "{{ base.hex }}",
-    "TitleInfo": "{{ text.hex }}",
-    "NormalTitle": "{{ red.hex }}",
-    "DimmedTitle": "{{ subtext0.hex }}",
-    "SelectedTitle": "{{ flavor.colors[accent].hex }}",
-    "NormalDesc": "{{ green.hex }}",
-    "DimmedDesc": "{{ subtext0.hex }}",
-    "SelectedDesc": "{{ flavor.colors[accent].hex }}",
-    "StatusMsg": "{{ lavender.hex }}",
-    "PinIndicatorColor": "{{ red.hex }}",
-    "SelectedBorder": "{{ flavor.colors[accent].hex }}",
-    "SelectedDescBorder": "{{ flavor.colors[accent].hex }}",
-    "FilteredMatch": "{{ red.hex }}",
-    "FilterPrompt": "{{ pink.hex }}",
-    "FilterInfo": "{{ text.hex }}",
-    "FilterText": "{{ rosewater.hex }}",
-    "FilterCursor": "{{ peach.hex }}",
-    "HelpKey": "{{ flavor.colors[accent].hex }}",
-    "HelpDesc": "{{ text.hex }}",
-    "PageActiveDot": "{{ green.hex }}",
-    "PageInactiveDot": "{{ subtext0.hex }}",
-    "DividerDot": "{{ red.hex }}",
-    "PreviewedText": "{{ text.hex }}",
-    "PreviewBorder": "{{ flavor.colors[accent].hex }}"
+  "useCustom": true,
+  "TitleFore": "{{ text.hex }}",
+  "TitleBack": "{{ base.hex }}",
+  "TitleInfo": "{{ text.hex }}",
+  "NormalTitle": "{{ text.hex }}",
+  "DimmedTitle": "{{ overlay0.hex }}",
+  "SelectedTitle": "{{ flavor.colors[accent].hex }}",
+  "NormalDesc": "{{ subtext0.hex }}",
+  "DimmedDesc": "{{ overlay0.hex }}",
+  "SelectedDesc": "{{ flavor.colors[accent].hex }}",
+  "StatusMsg": "{{ lavender.hex }}",
+  "PinIndicatorColor": "{{ red.hex }}",
+  "SelectedBorder": "{{ flavor.colors[accent].hex }}",
+  "SelectedDescBorder": "{{ flavor.colors[accent].hex }}",
+  "FilteredMatch": "{{ red.hex }}",
+  "FilterPrompt": "{{ pink.hex }}",
+  "FilterInfo": "{{ text.hex }}",
+  "FilterText": "{{ rosewater.hex }}",
+  "FilterCursor": "{{ peach.hex }}",
+  "HelpKey": "{{ flavor.colors[accent].hex }}",
+  "HelpDesc": "{{ text.hex }}",
+  "PageActiveDot": "{{ green.hex }}",
+  "PageInactiveDot": "{{ subtext0.hex }}",
+  "DividerDot": "{{ red.hex }}",
+  "PreviewedText": "{{ text.hex }}",
+  "PreviewBorder": "{{ flavor.colors[accent].hex }}"
 }
